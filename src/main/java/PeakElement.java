@@ -5,11 +5,11 @@ public class PeakElement {
         int count = 0;
         for (int i = 0; i < array.length; i++) {
             if (i == 0 && array[0] > array[1]) {
-                 count++;
+                count++;
             } else if (i > 0 && i < array.length - 1 && array[i] > array[i - 1] && array[i] > array[i + 1]) {
-                  count++;
+                count++;
             } else if (array[array.length - 1] > array[array.length - 2]) {
-                  count++;
+                count++;
             }
         }
         int[] resultArray = new int[count];

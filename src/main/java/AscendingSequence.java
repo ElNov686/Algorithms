@@ -5,7 +5,7 @@ public class AscendingSequence {
         if (step > 0 && start < end) {
             int[] result = new int[(end - start + 1) / step];
 
-            for ( int i = 0; i < result.length; i ++) {
+            for (int i = 0; i < result.length; i++) {
                 if (start <= end) {
                     result[i] = start;
                     start += step;
